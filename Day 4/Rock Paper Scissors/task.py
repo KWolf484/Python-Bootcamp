@@ -6,7 +6,7 @@ from art import rock, paper, scissors
 ROCK = 0
 PAPER = 1
 SCISSORS = 2
-
+ascii_art = [rock, paper, scissors]
 #Ask player to make a choice between RPS
 player = input("Choose: (R)ock, (P)aper or (S)cissors.\n").upper()
 
@@ -33,13 +33,9 @@ def win_lose(p, c):
         print("You Lose")
 
 def ascii_art(x):
-    """prints ASCII art"""
-    if x == 0:
-        return rock
-    elif x == 1:
-        return paper
-    elif x == 2:
-        return scissors
+    """prints ASCII art using value of x (0, 1, 2) as index for list art"""
+    return ascii_art[x]
+
 
 print(f"Player:\n{ascii_art(x=player)}")
 print(f"Computer:\n{ascii_art(x=comp)}")
