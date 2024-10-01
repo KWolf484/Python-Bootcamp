@@ -2,13 +2,13 @@ type: theory
 files:
   - name: main.py
     visible: true
-    learner_created: false
+    learner_created: true
   - name: __init__.py
-    visible: false
-    learner_created: false
+    visible: true
+    learner_created: true
   - name: solution.py
     visible: true
-    learner_created: false
+    learner_created: true
 status: Solved
 record: 6
 post_submission_on_open: true
