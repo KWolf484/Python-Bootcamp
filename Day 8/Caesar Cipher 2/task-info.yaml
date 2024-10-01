@@ -2,10 +2,10 @@ type: theory
 files:
   - name: main.py
     visible: true
-    learner_created: true
+    learner_created: false
   - name: solution.py
     visible: true
-    learner_created: true
-status: Unchecked
+    learner_created: false
+status: Solved
 record: -1
 post_submission_on_open: true
