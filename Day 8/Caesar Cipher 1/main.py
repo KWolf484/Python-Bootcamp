@@ -12,6 +12,38 @@ shift = int(input("Type the shift number:\n"))
 
 # TODO-4: What happens if you try to shift z forwards by 9? Can you fix the code?
 
-# TODO-3: Call the 'encrypt()' function and pass in the user inputs. You should be able to test the code and encrypt a
-#  message.
+# TODO-3: Call the 'encrypt()' function and pass in the user inputs.
+#  You should be able to test the code and encrypt a message.
+
+holder = []
+def encrypt(original_text, shift_amount):
+    for char in original_text:
+        alpha_pos = alphabet.index(char)+shift_amount
+        holder.append(alphabet[alpha_pos])
+    list_to_string(items=holder)
+
+def decrypt(original_text, shift_amount):
+    for char in original_text:
+        alpha_pos = alphabet.index(char)-shift_amount
+        holder.append(alphabet[alpha_pos])
+    list_to_string(items=holder)
+
+def list_to_string(items):
+    placement = ""
+    for item in items:
+        placement += item
+    print(placement)
+
+if direction == "encode" or direction == "e":
+    encrypt(original_text=text, shift_amount=shift)
+    print("Encrypting message")
+elif direction == "decode" or direction == "d":
+    print("Decrypting message")
+    decrypt(original_text=text, shift_amount=shift)
+else:
+    print("Function unavailable.")
+
+
+
+
 

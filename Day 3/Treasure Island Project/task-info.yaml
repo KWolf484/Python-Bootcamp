@@ -2,11 +2,8 @@ type: theory
 files:
   - name: task.py
     visible: true
-    learner_created: false
+    learner_created: true
   - name: solution.py
-    visible: true
-    learner_created: false
-  - name: art.py
     visible: true
     learner_created: true
 status: Solved
