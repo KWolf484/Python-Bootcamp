@@ -1,4 +1,4 @@
-alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', ' ']
 
 direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
 text = input("Type your message:\n").lower()
@@ -15,33 +15,43 @@ shift = int(input("Type the shift number:\n"))
 # TODO-3: Call the 'encrypt()' function and pass in the user inputs.
 #  You should be able to test the code and encrypt a message.
 
-holder = []
 def encrypt(original_text, shift_amount):
+    holder = ""
     for char in original_text:
         alpha_pos = alphabet.index(char)+shift_amount
-        holder.append(alphabet[alpha_pos])
-    list_to_string(items=holder)
+        alpha_pos %= len(alphabet)
+        holder += alphabet[alpha_pos]
+    print(holder)
 
-def decrypt(original_text, shift_amount):
-    for char in original_text:
-        alpha_pos = alphabet.index(char)-shift_amount
-        holder.append(alphabet[alpha_pos])
-    list_to_string(items=holder)
+encrypt(original_text=text, shift_amount=shift)
+# ### Merge block with encrypt(), rename func to caesar(),
+# ### add third parameter encode_decode=direction ###
+#
+# def decrypt(original_text, shift_amount):
+#     for char in original_text:
+#         alpha_pos = alphabet.index(char)-shift_amount
+#         alpha_pos %= len(alphabet)
+#         holder.append(alphabet[alpha_pos])
+#     list_to_string(items=holder)
 
-def list_to_string(items):
-    placement = ""
-    for item in items:
-        placement += item
-    print(placement)
+# ### Redundant list_to_string() func ###
+#
+# def list_to_string(items):
+#     placement = ""
+#     for item in items:
+#         placement += item
+#     print(placement)
 
-if direction == "encode" or direction == "e":
-    encrypt(original_text=text, shift_amount=shift)
-    print("Encrypting message")
-elif direction == "decode" or direction == "d":
-    print("Decrypting message")
-    decrypt(original_text=text, shift_amount=shift)
-else:
-    print("Function unavailable.")
+# ### Redundant block, integrate within caesar() ###
+#
+# if direction == "encode" or direction == "e":
+#     print("Encrypting message")
+#     encrypt(original_text=text, shift_amount=shift)
+# elif direction == "decode" or direction == "d":
+#     print("Decrypting message")
+#     decrypt(original_text=text, shift_amount=shift)
+# else:
+#     print("Function unavailable.")
 
 
 
