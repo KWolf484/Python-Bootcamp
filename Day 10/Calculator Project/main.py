@@ -14,7 +14,6 @@ def divide(n1, n2):
     """Takes two arguments and divides n1 by n2 and returns the result """
     return n1 / n2
 
-
 operators = {
     "+": add,
     "-": subtract,
@@ -22,10 +21,10 @@ operators = {
     "/": divide,
 }
 
-n1 = int(input("Enter first number: "))
+num1 = int(input("Enter first number: "))
 func = operators[input("Choose from: +, -, *, /\nEnter an operator: ")]
-n2 = int(input("Enter second number: "))
+num2 = int(input("Enter second number: "))
 carry_result = 0
-print(func(n1, n2))
+print(func(n1=num1, n2=num2))
 
 
