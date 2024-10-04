@@ -21,10 +21,11 @@ operators = {
     "*": multiply,
     "/": divide,
 }
-n1 = int(input("Enter first number: "))
-func = operators[input("Enter a operator: ")]
-n2 = int(input("Enter second number: "))
 
+n1 = int(input("Enter first number: "))
+func = operators[input("Choose from: +, -, *, /\nEnter an operator: ")]
+n2 = int(input("Enter second number: "))
+carry_result = 0
 print(func(n1, n2))
 
 
