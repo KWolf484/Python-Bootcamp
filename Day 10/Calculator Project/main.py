@@ -1,3 +1,6 @@
+from art import logo
+from os import system
+
 def add(n1, n2):
     """Takes two arguments, adding and returns the result"""
     return n1 + n2
@@ -21,10 +24,25 @@ operators = {
     "/": divide,
 }
 
-num1 = int(input("Enter first number: "))
-func = operators[input("Choose from: +, -, *, /\nEnter an operator: ")]
-num2 = int(input("Enter second number: "))
-carry_result = 0
-print(func(n1=num1, n2=num2))
+def calculator():
+    cont_with_last = True
+    print(logo)
+    num1 = int(input("First number: "))
+    while cont_with_last:
+        operator = input("Which operation: + - / *, ? ")
+        num2 = int(input(f"Second number: "))
+        result = operators[operator](n1=num1, n2=num2)
+        print(f"{num1} {operator} {num2} = {result}")
+
+        cont = input(f"(Y)es or (N)o;\nWould you like to continue working with {result}, or start a new calculation?").lower()
+        if cont == "yes" or cont == "y":
+            num1 = result
+        else:
+            result = 0
+            cont_with_last = False
+            system('clr')
+            calculator()
+
+calculator()
 
 
