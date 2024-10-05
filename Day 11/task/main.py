@@ -31,19 +31,15 @@ def is_bust(player, player_score):
         for card in player:
             if card == 11:
                 card = 1
+                return player
             else:
                 return True
-            return player
     elif len(player) == 2 and player_score == 21:
-        return f"{player} Drew {player[0]} and {player[1]},\n BLACK JACK!"
+        return -1 # f"{player} Drew {player[0]} and {player[1]},\n BLACK JACK!"
+    else:
+        return False
+def game():
+    user_score = draw(player=user, num_cards=2)
+    comp_score = draw(player=comp, num_cards=2)
 
-
-user_score = draw(player=user, num_cards=2)
-comp_score = draw(player=comp, num_cards=2)
-
-# user_Score = calc_hand(player=user)
-# comp_score = calc_hand(player=comp)
-
-print(f"User:{user} Score:{user_score}")
-print(f"User:{comp} Score:{comp_score}")
 
