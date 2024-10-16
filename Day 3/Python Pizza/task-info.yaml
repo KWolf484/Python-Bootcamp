@@ -7,7 +7,7 @@ files:
     visible: false
     learner_created: false
   - name: __init__.py
-    visible: true
+    visible: false
     learner_created: false
   - name: tests/__init__.py
     visible: false
@@ -16,7 +16,4 @@ files:
     visible: true
     learner_created: false
 status: Solved
-feedback:
-  message: Congratulations!
-  time: "Tue, 01 Oct 2024 21:47:23 UTC"
 record: -1
