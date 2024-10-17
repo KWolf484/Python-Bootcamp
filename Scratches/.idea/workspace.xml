@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e2909dfb-b651-4ec8-ac54-9d91359ed108" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/.author_contents_storage_db" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.author_contents_storage_db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.author_contents_storage_db-shm" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.author_contents_storage_db-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.author_contents_storage_db-wal" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.author_contents_storage_db-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 1/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day 1/lesson-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 12/Global Constants/solution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 12/Global Constants/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 12/Global Constants/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 12/Global Constants/task.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 12/Global Constants/task.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 4/Rock Paper Scissors/solution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 4/Rock Paper Scissors/task-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 4/Rock Paper Scissors/task-remote-info.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 4/Rock Paper Scissors/task.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 4/Rock Paper Scissors/task.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Day 7/Step 4/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../Day 7/Step 4/task-info.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "KWolf484"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/KWolf484/Python-Bootcamp.git",
+    "accountId": "ffcd7993-451f-4612-a302-3dead2c71e64"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2nZFru0uu9B1CLrHQnn5a9DltTA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Burto/OneDrive/Learning and Development/100DaysOfPython/PycharmProjects/100 Days of Code - The Complete Python Pro Bootcamp/Scratches"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e2909dfb-b651-4ec8-ac54-9d91359ed108" name="Changes" comment="" />
+      <created>1729172893007</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729172893007</updated>
+    </task>
+    <servers />
+  </component>
+</project>
