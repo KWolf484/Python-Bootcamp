@@ -20,26 +20,7 @@ def calc_hand(player_hand):
         hand_score += card
     return hand_score
 
-def bust_or_bj(player_hand, player_score):
-    """Check to see if player is bust (True),
-    or has blackjack(-1)"""
-### Blackjack check, hand of 2 cards that sum to 21 ###
-    if len(player_hand) == 2 and player_score == 21:
-        return -1
-### Bust check, hand sum over 21 ###
-    elif player_score > 21:
-        return True #BUST
-    elif player_score <=21:
-        return False
 
-def has_ace(player_hand, player_score):
-    bust = bust_or_bj(player_hand, player_score)
-    if bust:
-        player_hand.remove(11)
-        player_hand.append(1)
-
-    else:
-        return player_hand
 
 def display(player_hand):
     """takes a list (player) """
